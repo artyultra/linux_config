@@ -1,0 +1,72 @@
+{
+	"notifications": [
+		{
+			"guid": "7bedfd3d-0cbf-49ce-9500-8e1e89de9202",
+			"timestamp": 1740954443808,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "More Docker. Easy Access. New Streamlined Plans.",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "Learn more",
+				"action": {
+					"action": "open-external-url",
+					"params": {
+						"url": "https://www.docker.com/blog/november-2024-updated-plans-announcement/"
+					}
+				}
+			}
+		},
+		{
+			"guid": "cab105f3-6404-42e5-bc15-34aa5c9e569f",
+			"timestamp": 1740955371066,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "9716ffaa-4906-4b0d-8eb8-c975b26853d7",
+			"timestamp": 1740955672393,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Scout wants to send OS Notifications through Docker Desktop",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "View",
+				"action": {
+					"action": "enable-scout-os-notifications",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "0f4d79d4-533b-402d-9b22-c2fea862d826",
+			"timestamp": 1741624966554,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Docker Desktop 4.39.0 is available.",
+				"actionText": "Download",
+				"action": {
+					"action": "update-available"
+				},
+				"type": "update"
+			}
+		}
+	]
+}

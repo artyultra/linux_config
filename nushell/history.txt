@@ -1,0 +1,2962 @@
+ls
+clear
+z dotfiles
+ls
+ls -a
+cd
+yazi
+z yazi
+cd .config/yazi/
+ls
+cd ..
+cd ghostty
+ls
+c
+cd /etc/shells
+bat /etc/shell
+cat /etc/shells
+clear
+chsh -s /usr/bin/nu
+ls
+clear
+z dotfiles
+ls
+yay -S evtest
+sudo evtest
+sudo showkey -k
+which xmodmap
+cd
+pacman -S neofetch
+sudo pacman -S neofetch
+neofetch
+clear
+yay -S tmux
+tmux
+clear
+tmux
+cd .config
+ls
+cd tmux
+ls
+tmux.conf
+nv tmux.conf
+ls
+cd
+ls
+ls -a
+cd .tm
+z .tmux
+ls
+z tmux
+tmux source tmux.conf
+tmux
+nv tmux.conf
+tmux source tmux.conf
+clear
+ls
+clear
+tmux source-file /home/kiga/.config/tmux/tmux.conf
+tmux
+exit
+tmux
+exit
+tmux source-file /home/kiga/.config/tmux/tmux.conf
+lsblk
+sudo unmount /dev/sdb
+sudo umount /dev/sdb
+lsblk
+sudo umount /dev/sdb
+sudo eject /dev/sdb
+lsblk
+tmux source-file ~/.config/tmux/tmux.conf
+ls -la ~/.config/tmux/tmux.config
+tmux source-file ~/.config/tmux/tmux.conf
+ls -la ~/.config/tmux/tmux.conf
+exit
+tmux
+z tmux
+ls
+nv
+source_file tmux.conf
+source tmux.conf
+clear
+source ~/.config/tmux/tmux.conf
+nv
+source ~/.config/tmux/tmux.conf
+cd 
+la -a
+clear
+rm -rf .tmux
+clear
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd .tmux
+ls
+exit
+tmux
+:q
+source ~/.config/tmux/tmux.conf
+tmux source-file ~/.config/tmux/tmux.conf
+clear
+tmux kill-session
+tmux ls
+tmux new -s hello
+tmux a
+clear
+sudo yay -S hyprland
+sudo yay -S waybar wofi xdg-desktop-portal-hyprland
+clear
+sudo yay -S openssh
+sudo systemctl enable sshd
+sudo systemctl start ssh
+sudo systemctl start sshd
+ip addr show
+clear
+tmux new -S ssh_config
+ip addr show
+sudo nv /etc/ssh/sshd_conf
+nc
+nv
+sudo nvim -E /etc/ssh/ssh_config
+clear
+sudo nvim /etc/ssh/sshd_config
+sudo systemctl restart sshd
+systemctl status sshd.service
+sudo systemctl start sshd
+clear
+sudo systemctl stop sshd
+sudo systemctl start sshd
+journalctl -xeu sshd.service
+sudo nvim /etc/ssh/sshd_config
+sudo systemctl start sshd
+ls
+clear
+exit
+clear
+which
+whoami
+host
+which host
+ls
+ip addr show
+clear
+pacman -Qs gdm
+sudo systemctl enable gdm
+sudo systemctl start gdm
+ls /usr/share/wayland-sessions/hyprland.desktop
+sudo systemctl restart gdm
+cd .config
+ls
+cd hypr/
+ls
+z hypr
+nv hyprland.conf
+setxkbmap -option caps:super
+which xmodmap
+clear
+nv .Xmodmap
+which xev
+pacman -S xev
+sudo pacman -S xev
+sudo showkey -k
+clear
+sudo showkey -k
+nv .Xmodmap
+rm .Xmodmap
+xmodmap -pke ~/.Xmodmap.full
+nv .Xmodmap.full
+xmodmap -pke > ~/.Xmodmap.full
+nv .Xmodmap.full
+ls -a
+echo xmodmap -pke > ~/.Xmodmap.full
+clear
+echo xmodmap -pke > ~/.Xmodmap.full
+xmodmap -pke > ~/.Xmodmap.full
+clear
+xmodmap -pke | tee /home/kiga/.Xmodmap.full
+nv .Xmodmap.full
+xmodmap -pke > ~/.Xmodmap.full
+nv .Xmodmap.full
+echo "hello" > ~/.Xmodmap.full
+nv .Xmodmap.full
+xmodmap -pke
+ls
+ls -a
+clear
+ls -a
+scp kiga@192.168.4.55:/Users/kiga/ .Xmodmap.full
+ssh kiga@192.168.4.55
+clear
+ip addr show
+clear
+ip addr show
+ls
+ls -a
+clear
+exit
+nv .Xmodmap.full
+exit
+scp kiga@192.168.7.154:/Users/kiga/ .Xmodmap.full
+ssh kiga@
+ssh-keygen -t ed25519 -C "kiganoakuma"
+cd .ssh
+ls
+yazi
+ssh-keygen -t ed25519 -C "kiganoakuma"
+cd .ssh
+ls
+cat id_ed25519.pub
+ssh kiga@192.168.4.55
+ssh kiga@192.168.7.154
+clear
+ssh kiga@192.168.7.154
+clear
+ssh kiga@192.168.7.154
+cd .ssh
+ls
+bat id_ed25519.pub
+cat id_ed25519.pub
+ssh kiga@192.168.7.154
+scp /home/kiga/.Xmodmap.full kiga@192.168.7.154
+scp /home/kiga/.Xmodmap.full kiga@192.168.7.154:/Users/kiga/
+sudo showkey -k
+xmodmap -pke
+clear
+xmodmap -pk
+xmodmap -pke > ~/.Xmodmap.full
+cd
+exity
+exit
+xmodmap -pke
+sudo showkey -k
+clear
+echo $WAYLAND_DISPLAY
+echo $env.WAYLAND_DISPLAY
+echo $env.XDG_SESSION_TYPE
+clear
+sudo pacman -S keyd
+keyd monitor
+sudo keyd monitor
+clear
+ls
+ls -a
+clear
+sudo nvim /etc/keyd/default.conf
+sudo keyd reload
+sudo systemctl enable keyd
+sudo systemctl start keyd
+sudo keyd reload
+clear
+sudo keyd -m
+sudo nvim /etc/keyd/default.conf
+sudo keyd reload
+celar
+clear
+hyprctl monitors all
+clear
+exit
+sudo nvim /etc/keyd/default.conf
+sudo keyd reload
+yay -Ss arc
+clear
+yay -Ss arc browser
+nv .config/hyper
+z hypr
+nv hyprland.conf
+waybar
+exit
+z h
+z .config
+ls
+mkdir waybar
+cd waybar/
+nv config
+waybar
+nv config
+z ghos
+nv config
+z hy
+nv hyprland.conf
+z gh
+waybar
+clear
+sudo pacman -S swww
+z hypr
+nv hyprland.conf
+swww init
+swww-daemon
+nv hyprland.conf
+z wofi
+cd .config
+nv ~/.config/wofi/config
+ls
+nv
+z wayba
+waybar
+clear
+waybar
+clear
+waybar
+z w
+ls
+nv config
+nv style.css
+cd 
+ls
+cd .config
+ls
+z hy
+nv hyprland.conf
+yazi
+cd
+c
+gi clone https://github.com/knightfallxz/Hyprland-Custom-Configuration.git
+git clone https://github.com/knightfallxz/Hyprland-Custom-Configuration.git
+ls
+cd Hyprland-Custom-Configuration/
+ls
+yazi
+z hypr
+cd 
+cd .config/hypr
+nv hyprland.conf
+clear
+which python3
+python3 --v
+python3 --version
+clear
+yay -S waypaper
+which wl-clipboard
+yay -S wl-clipboard
+which wl-clipboard]
+which wl-clipboard
+clear
+command -v wl-copy
+which wl-copy
+yazi
+clear
+nv
+yay -S cliphlist
+yay -S cliphist
+yay -S dunst
+yay -S swaylock
+yay -S slurp
+yay -S grim
+yay -S wf-recorder
+yay -S playerctl
+yay -S pipewire
+yay -S wireplumber
+yay -S network-manager-applet
+yay -S blueberry
+yay -S polkit-kde-agent
+yay -S waypaper
+clear
+yay -S ranger
+clear
+sudo pacman -S polkit-kde-agent
+clear
+yay -S polkit
+yaz
+z hypr
+nv scripts/
+nv hyprland.conf
+z h
+ls
+which ranger
+ranger
+clear
+nv hyprland.conf
+which grep
+yay -S ripgrep
+yazi
+z hypr
+nv hyprland.conf
+c
+cd ..
+cd swaylock/
+ls
+yazi
+yay -S swayidle
+celar
+clear
+z .confg
+z .config
+ls
+z hy
+nv hyprland.conf
+cd
+mkdir ~/.config/swayidle
+cd .config/swayidle/
+nv config
+z hy
+nv config
+ls
+ls -a
+.config
+ls
+z hy
+nv config
+waybar
+clear
+cd .config/swayidle/
+nv config
+z wa
+z h
+z hyprl
+clea
+c
+clear
+cd
+z hy
+nv hyprland.conf
+z waybar
+ls
+nv Waybar-3.0/
+z hy
+z way
+ls
+yazi
+which hyprpaper
+pacman -S hyprpaper
+sudo pacman -S hyprpaper
+which hyprpaper
+nv hyprland.conf
+cd
+cd Pictures/
+ls
+hyprctl monitors all
+clear
+hyprpaper
+which hyprpaper
+clear
+hyprpaper
+hyprctl monitors
+hyprpaper
+yazi
+hyprpaper
+clear
+hyprpaper
+hyprctl monitors
+hyprpaper
+ls -l /home/kiga/Pictures/ayase.png
+hyprpaper
+z hy
+swaylock
+z sway
+cd ..
+cd swaylock/
+swaylock -i ~/Pictures/ayase.png
+nv hyprland.conf
+clear
+z waybar
+ls
+cd Waybar-3.0/
+ls
+cd scripts
+ls
+cd custom
+ls
+cd ..
+cd ../..
+cd Waybar-3.0/
+ls
+cd configs
+ls
+cd custom_moduels
+cd custom_modules/
+ls
+cd ../..
+z hy
+nv config
+clear
+cd
+yay -S hyprlock
+nv hyprland.conf
+yazi
+hyprctl monitors
+clear
+hyprlock
+z h
+hyprctl monitors
+hyrlock
+hyprlock
+nv hyprlock.conf
+touch mocha.conf
+z hy
+yay -Rns swayidle swaylock
+clear
+nv mocha.conf
+yay -S hypridle
+nv hyprland.conf
+hypridle
+clear
+cd
+hypridle
+z hy
+cd .ssh
+ls
+cat id_ed25519.pub
+cd
+git clone git@github.com:kiganoakuma/bootdev.git
+cd bootdev
+nv
+z
+nv ~/.config/nvim/
+nv
+nv ~/.config/nvim/
+cd .config/nvim/
+nv test.lua
+nv
+clear
+cd ~/bootdev/
+ls
+cd public
+ls
+z hy
+clear
+systemctl suspend
+hyprctl dispatch exit
+sudo nvim /etc/systemd/logind.conf
+cd
+nv .config/hypr/hypridle.conf
+z hy
+hyprctl monitors
+celar
+clear
+nv hyprland.conf
+clear
+z bootdev
+curl -sS https://webi.sh/golang | sh
+z nus
+cd
+cd .config/nushell
+nv config.nu
+cd .
+cd ..
+ls
+cd envman
+ls
+nv PATH.env
+which golang
+which go
+clear
+go install github.com/bootdotdev/bootdev@latest
+z publ
+bootdev run bd4a35b7-e7a5-4ae3-96d7-051695ebd3da
+which bootdev
+bootdev --version
+clear
+z pu
+bootdev run bd4a35b7-e7a5-4ae3-96d7-051695ebd3da
+echo $env.PATH
+cd go
+cd 
+cd go
+ls
+cd bin
+ls
+bootdev
+chmod +x bootdev
+bootdev
+ls -al
+clear
+z nushel
+cd
+bootdev
+source ~/.config/nushell/config.nu
+bootdev
+bootdev login
+go --version
+which go
+which bootdev
+nv
+clear
+bootdev
+nv env.nu
+bootdev
+source ~/.config/nushell/config.nu
+cd go
+cd bin
+ls
+rm bootdev
+cd
+go install github.com/bootdotdev/bootdev@latest
+bootdev
+cd .local/bin/go/bin
+cd .local/opt/
+cd cd go
+cd go
+ls
+~/.local/opt/go/bin/go --version
+~/.local/opt/go/bin/go install github.com/bootdotdev/bootdev@latest
+bootdev
+which bootdev
+cd
+cd go
+ls
+cd bin
+ld
+ls
+~/go/bin/bootdev
+z hy
+z nu
+source ~/.config/nushell/config.nu
+cd
+bootdev
+nv env.nu
+bootdev
+bootdev login
+clear
+z boot
+z hy
+yazi
+nv hyprlock.conf
+z bootde
+ls
+clear
+z pub
+z p
+z pu
+clea
+c
+c
+nvb
+nv
+clear
+nv
+./test.sh
+c
+./test.sh
+celar
+c
+./test.sh
+clear
+./test.sh
+clear
+./test.sh
+c
+./test.sh
+clear
+bootdev run bd4a35b7-e7a5-4ae3-96d7-051695ebd3da -s
+z public
+yay -S poetry
+sudo pacman -S cmatric
+sudo pacman -S cmatrix
+cmatric -s
+cmatrix -s
+cmatrix
+cmatrix -u 20
+cmatrix -u
+cmatrix -C -c
+cmatric -C green -c
+cmatrix -C green -c
+cmatrix -c -C green
+cmatrix -c
+cmatrix -C magenta
+cmatrix -C magenta -u 1
+cmatrix -c
+cmatrix -u 1
+echo -e "\e[1;40m" ; clear ; while :; do echo $LINES $COLUMNS $(( $RANDOM % $COLUMNS)) $(( $RANDOM % 72 )) ;sleep 0.05; done|awk '{ letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()"; c=$4; letter=substr(letters,c,1);a[$3]=0;for (x in a) {o=a[x];a[x]=a[x]+1; printf "\033[%s;%sH\033[2;32m%s",o,x,letter; printf "\033[%s;%sH\033[1;37m%s\033[0;0H",a[x],x,letter;if (a[x] >= $1) { a[x]=0; } }}'
+clear
+zsh
+clear
+c
+z hypr
+c
+nv .config/hypr/hyprland.conf
+clear
+z pub
+ls
+clear
+ls
+cd src
+ls
+./test.sh
+clear
+./test.sh
+celar
+clear
+which gnome-bluetooth
+which blueberry\
+which blueberry
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+cd way
+z way
+ls
+cd scripts
+ls
+cd
+sudo pacman -S libinput
+sudo pacman -S piper
+sudo systemctl enable --now ratbagd
+sudo systemctl start --now ratbagd
+piper
+clear
+z bootdev/
+ls
+git fetch origin
+git log
+gl
+clear
+ls
+lazygit
+yay -S lazygit
+sudo pacman -S lazygit
+yay -S lazy-git
+lazygit
+which lazy-git
+sudo pacman -S lazygit
+gl
+git checkout main
+git pull
+ls
+gl
+cd public/
+nv .
+cd
+rm -rf bootdev
+git clone git@github.com:kiganoakuma/bootdev.git
+cd bootdev
+gl
+yay -S jellyfin
+clear
+cd
+clear
+sudo systemctl enable jellyfin
+sudo systemctl start jellyfin
+sudo systemctl status jellyfin
+clear
+sudo ufw allow 8096/tcp
+which iptables
+sudo iptables -A INPUT -p tcp --dport 8096 -j ACCEPT
+cifs-utils
+which cifs-utils
+sudo pacman -S cifs-utils
+sudo mkdir /mnt/nas
+sudo mount -t cifs -o username=kiga,password="0h How the turn tables" //192.168.4.55/NAS /mnt/nas
+cd /mnt/nas
+ls
+sudo pacman -S certbot python-certbot-nginx<\n>
+sudo pacman -S certbot python3-certbot-nginx<\n>
+sudo pacman -S certbot python3certbot-nginx<\n>
+sudo pacman -S certbot certbot-nginx<\n>
+ip addr show
+cd .config
+mkdir shellscipts
+cd shellscipts/
+nv update_duckdns.sh
+chmod +x update_duckdns.sh
+./update_duckdns.sh
+nv .
+./update_duckdns.sh
+cd
+bat duckdns.log
+sudo pacman -S bat
+bat duckdns.log
+clear
+which crontab
+sudo pacman -S crontab
+which crontab
+sudo pacman -S cronie
+which crontab
+ls
+crontab -e
+crontab -l
+bat duckdns.log
+clear
+curl -s https://ipv4.icanhazip.com
+curl -s https://ipv6.icanhazip.com
+z shel
+nv update_duckdns.sh
+./update_duckdns.sh
+cd
+z gho
+ls
+nv update_duckdns.sh
+z shel
+nv update_duckdns.sh
+sudo pacman -S brightnessctl
+brightnessctl set 50%
+sudo pacman -S ddcutil
+sudo ddcutil detect
+lsmod | grep i2c_dev
+sudo modprobe i2c-dev
+echo "i2c-dev" | sudo tee /etc/modules-load.d/i2c-dev.conf<\n>
+cd /etc/modules-load.d
+lw
+ls
+clear
+sudo ddcutil detect
+sudo ddcutil --bus=9 setvcp 10 50
+sudo ddcutil --bus=9 setvcp 10 40
+sudo ddcutil --bus=9 setvcp 10 30
+cd
+~/.config/shellscipts/update_duckdns.sh
+z shell scripts
+z shel
+nv update_duckdns.sh
+curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \<\n>     -H "Authorization: Bearer 4qcdMJ0ZD3fAM4xOyE90pmN05DFawlNvHgaSoO34" \<\n>     -H "Content-Type:application/json"
+zsh
+curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \<\n>     -H "Authorization: Bearer 4qcdMJ0ZD3fAM4xOyE90pmN05DFawlNvHgaSoO34" \<\n>     -H "Content-Type:application/json"
+clear
+crontab -e
+./update_cloudflare.sh
+chmod +x update_cloudflare.sh
+./update_cloudflare.sh
+clear
+nv update_cloudflare.sh
+./update_cloudflare.sh
+nv
+nv .
+./update_cloudflare.sh
+nv .
+./update_cloudflare.sh
+clear
+sudo pacman -S caddy
+ping kiganoakuma.cc
+ping http://kiganoakuma.cc
+ping kiganoakuma.cc
+clear
+ping http://kiganoakuma.cc
+clear
+ping jellyfin.kiganoakuma.cc
+clear
+ip -6 addr
+cd
+cd /etc/ssl/
+ls
+mkdir cloudflare
+ls
+sudo mkdir cloudflare
+ls
+cd cloudflare
+ls
+sudo nvim cloudflare.pem
+cd Downloads/
+ls
+clear
+sudo nvim cloudflare.key
+sudo chmod 600 cloudflare.key
+clear
+swaylock
+clear
+swaylock
+hyprlock
+z .Xmodmap.full
+ls
+cd .confog
+cd .config
+ls
+cd ibus
+ls
+cd
+cd bus
+cd\
+ls
+cd .config/ibus/bus
+ls
+cd
+ls -
+ls -a
+nv .Xmodmap.full
+cd /
+la
+cd etx
+cd /etc
+ls
+nv mtab
+cd keyd/
+ls
+sudo keyd reload
+sudo keyd -l
+sudo keyd list-keys
+sudo keyd -l
+sudo libinput list-devices
+sudo keyd -m
+nv default.conf
+sudo nvim default.conf
+sudo keyd reload
+sudo systemctl enable keyd
+sudo systemctl start keyd
+clear
+cd
+cd
+clea
+c
+c
+ping kiganoakuma.cc
+ping jellyfin.kiganoakuma.cc
+clear
+sudo pacman -Syu caddy
+cd /etc/caddy/
+ls
+cd conf.d/
+ls
+cd ../..
+cd caddy
+ls
+sudo nvim Caddyfile
+sudo mkdir certs
+ls
+cd certs
+ranger
+yazi
+ls
+cd ..
+ls
+cd certs
+ls
+cd /etc/ssl/cloudflare
+ls
+mv cloudflare.key cloudflare.pem /etc/caddy/certs/
+sudo mv cloudflare.key cloudflare.pem /etc/caddy/certs/
+cd /etc/caddy/
+ls
+cd certs
+ls
+cd ..
+export SUDO_EDITOR="nvim"
+let-env SUDO_EDITOR = "nvim"
+let-env SUDO_EDITOR - "nvim"
+config set-env SUDO_EDITOR "nvim"
+echo $env.SUDO_EDITOR
+echo $env.EDITOR
+echo $env.sudoedit
+echo $env.SUDOEDIT
+sudoedit
+sudoedit certs/cloudflare.key
+clear
+config nu
+source ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+snv certs/cloudflare.key
+config nu
+cd etc/caddy/certs
+cd /etc/caddy/certs
+ls
+snv cloudflare.key
+config nu
+source ~/.config/nushell/config.nu
+snv cloudflare.key
+sudo chown caddy:caddy /etc/caddy/certs
+sudo chmod 600 cloudflare.key cloudflare.pem
+cd ..
+snv Caddyfile
+sudo systemctl enable caddy
+sudo systemctl start caddy
+systemctl status caddy.service
+sudo chown caddy:caddy /etc/caddy/certs/
+sudo systemctl start caddy
+systemctl status caddy.service
+sudo chmod 600 /etc/caddy/certs/*
+grep User /usr/lib/systemd/system/caddy.service
+sudo caddy validate --config /etc/caddy/Caddyfile<\n>
+cd certs
+ls
+bat cloudflare.pem
+sudo bat cloudflare.pem
+cd ..
+nv Caddyfile
+nv certs/cloudflare.pem
+snv certs/cloudflare.pem
+sudo caddy validate --config /etc/caddy/Caddyfile<\n>
+caddy fmt --overwrite
+sudo caddy fmt --overwrite
+snv Caddyfile
+sudo caddy validate --config /etc/caddy/Caddyfile<\n>
+cd /etc/ssl/cloudflare/
+ls
+clear
+sudo cp /etc/caddy/certs/* /etc/ssl/cloudflare/
+ping jellyfin.kiganoakuma.cc
+snv Caddyfile
+ls
+snv Caddyfile
+celar
+source ~/.config/nushell/config.nu
+c
+ip addr show
+snv Caddyfile
+sudo bat Caddyfile
+clear
+sudo systemctl restart caddy
+systemctl status caddy.service
+sudo caddy validate --config /etc/caddy/Caddyfile<\n>
+sudo systemctl start caddy
+systemctl status caddy.service
+ls -la /etc/caddy/certs/
+sudo chown -R caddy:caddy /etc/caddy/certs<\n>
+ls -la /etc/caddy/certs/
+cd /etc/caddy/certs/
+sudo chown caddy:caddy cloudflare.key
+ls -la
+sudo systemctl start caddy
+systemctl status caddy.service
+cd /etc/caddy/
+ls -la
+sudo chown caddy:caddy Caddyfile
+sudo systemctl start caddy
+clear
+sudo systemctl start caddy
+systemctl status caddy.service
+sudo caddy validate --config /etc/caddy/Caddyfile<\n>
+clear
+sudo systemctl start caddy
+journalctl -xeu caddy.service
+sudo caddy fmt --overwrite
+sudo systemctl start caddy
+clear
+systemctl status caddy.service
+ls -la
+sudo chown caddy:caddy /etc/caddy/conf.d/
+ls
+ls -la
+cd certs
+ls
+ls -la
+clear
+sudo bat cloudflare.pem
+sudo bat cloudflare.key
+clear
+ls
+cd
+z cadd
+rm -rf certs
+sudo rm -rf certs
+snv Caddyfile
+caddy start
+sudo caddy start
+caddy run
+$ curl localhost:2019/config/
+curl localhost:2019/config/
+snv caddy.json
+cur localhost:2019/load -H "Content-Type: application/json" -d @caddy.json
+curl localhost:2019/load -H "Content-Type: application/json" -d @caddy.json
+curl localhost:2019/config/
+curl localhost:2015
+clear
+snv Caddyfile
+curl localhost:2015
+caddy adapt
+curl localhost:2015
+caddy run
+curl localhost:2019/config/
+caddy stop
+caddy run
+sudo systemctl start caddy
+snv Caddyfile
+sudo systemctl restart caddy
+sudo systemctl stop caddy
+sudo systemctl start caddy
+snv Caddyfile
+config reload
+caddy reload
+clear
+caddy run
+snv Caddyfile
+caddy reload
+caddy run --watch
+snv Caddyfile
+caddy reload
+snv Caddyfile
+config reload
+caddy reload
+snv Caddyfile
+snv caddy.html
+snv Caddyfile
+ls
+snv Caddyfile
+caddy reload
+snv caddy.html
+snv Caddyfile
+ls -la
+ls keyd
+cd
+clear
+z keyd
+ls
+cd default.conf
+snv default.conf
+clear
+z hyp
+nv hyprland.conf
+keyd
+sudo systemctl enable keyd
+sudo systemctl start keyd
+keyd
+sudo keyd reload
+sudo keyd 
+z hyprland
+z keyd
+ls
+cd ..
+chmod +x keyd/
+sudo chmod +x keyd
+sudo chmod +x keyd/*
+keyd
+z keyd
+ls
+snv default.conf
+sudo keyd -l
+sudo keyd reload
+sudo keyd
+clear
+z hyprland
+cd 
+keyd
+sudo keyd
+clear
+which keyd
+cd /usr/bin/keyd
+cd /usr/bin
+ls
+ls keyd
+ls keyd -la
+sudo chown kiga:kiga keyd
+ls keyd -la
+keyd
+sudo keyd
+clear
+cd
+clear
+cd bootdev
+lazygit
+sudo systemctl start keyd
+sudo pacman -S lazygit
+clear
+lazygit
+ls
+cd static_site_gen/
+ls
+tmux list-sessions
+tmux new -S bootdev
+tmux
+tmux new -S bootdev
+z st
+clear
+cd
+rm -rf Hyprland-Custom-Configuration/
+z stat
+./main.sh
+ls public -la
+clear
+nv .
+nv src/pub_update.py
+c
+nv .
+nv .
+./test.sh
+clear
+./test.sh
+clear
+./test.sh
+clear
+./test.sh
+clear
+./test.sh
+clear
+./test.sh
+nv .
+./test.sh
+clear
+./test.sh
+clear
+nv template.html
+ls
+nv template.html
+nv content/index.ms
+nv content/index.md
+touch content/index.md
+mkdir content
+cd content
+keyd
+sudo keyd
+sudo keyd reload
+nv index.md
+cllear
+clear
+sudo keyd
+clear
+clear
+yay -S qmk
+sudo pacman -S qmk
+git clone https://aur.archlinux.org/qmk.git
+cd qmk/
+makepkg -si
+clear
+qmk
+clear
+cd 
+rm -rf qmk/
+ls
+sudo pacman -S python python-pip git gcc arm-none-eabi-gcc dfu-programmer dfu-util avrdude<\n>
+git clone https://aur.archlinux.org/qmk.git
+cd qmk/
+makepkg -si
+yay -S qmk
+sudo pacman -S reflector
+sudo reflector --country US --age y --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --country US --age 6 --sort rate --save /etc/pacman.d/mirrorlist<\n>
+yay -S qmk-git
+cd 
+rm -rf qmk/
+sudo pacman --needed --noconfirm -S git python-pip libffi
+python3 -m pip install --user qmk
+sudo pacman -S pacman-qmk
+sudo pacman -S qmk
+sudo pacman -S python
+sudo pacman -S qmk
+yay -S qmk-git
+clear
+cd .cache/yay/qmk-git/
+ls
+sha256sum 50-qmk.rules-master
+sha256sum 50-qmk.rules_master
+sudo pacman-mirrors --fasttrack && sudo pacman -Syyu
+sudo pacman-mirrors --fasttrack and  sudo pacman -Syyu
+sudo pacman -U /home/kiga/Downloads/avr-gcc-14.1.0-1-x86_64.pkg.tar.zst
+cd .cache/yay/qmk-git/
+makepkg -si
+sha256sum 50-qmk.rules_master
+makepkg -si
+clear
+cd
+qmk setup
+cd qmk
+ls
+cd qmk_firmware/
+ls
+cd
+cd qmk_firmware/
+ls
+cd keyboards/
+cd crkbd/rev1/
+ls
+bat keyboard.json
+clear
+cd ..
+ls
+cd keymaps
+ls
+cd default/
+ls
+bat keymap.c
+nv PKGBUILD
+cd
+qmk config user.keymap=kiganoakuma
+cd
+ls
+cd qmk_firmware/
+ls
+cd keyboards/
+ls
+cd crkbd
+ls
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+cd ~/qmk_firmware/
+poetry
+poetry init
+poetry add pygments pyserial pillow
+ls
+ls -la
+clear
+poetry add pygments
+poetry init
+ls
+ls poetry
+ls
+ls -la
+poetry add pygments
+poetry add pyserial
+poetry add pillow
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+clear
+which pygments
+poetry add pygments
+pygments
+which pygments
+which pyserial
+clear
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+poetry show
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+clear
+clear
+exit
+poetry shell
+clear
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+clear
+which python
+which python3
+head -n 1 $(which qmk)
+head -n 1 $env.(which qmk)
+head -n 1 $env.("which qmk")
+clear
+zsh
+poetry shell
+clear
+poetry shell
+cd qmk_firmware/
+poetry sell
+clear
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+which python3
+sudo nvim $env.qmk
+sudo nvim $env.(which qmk)
+sudo nvim (which qmk | get path)
+sudo nvim ...(which qmk | get path)
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+clear
+poetry show
+clear
+which pygments
+clear
+which qmk
+sudo nvim ...(which qmk | get path)
+which python
+which python3
+sudo nvim ...(which qmk | get path)
+clear
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+sudo nvim ...(which qmk | get path)
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+sudo pacman -S python-pygments
+sudo pacman -S python-pyserial
+sudo pacman -S python-pillow
+clear
+qmk new-keymap -kb crkbd/rev1 -km kiganoakuma
+ls
+cd keyboards/crkbd/keymaps/kiganoakuma/
+ls
+bat config.h
+bat keymap.c
+nvim keymap.c
+qmk compile -kb crkbd -km kiganoakuma
+nv keymap.c
+qmk compile -kb crkbd -km kiganoakuma
+ls
+cd ~/qmk_firmware/
+ls
+lsusb
+sudo pacman -S lsusb
+sudo pacman -S usbutils
+lsusb
+clear
+lsusb
+qmk flash -kb crkbd -km kiganoakuma
+clear
+which dfuputil
+which avrdude
+lsusb
+qmk flash -kb crkbd -km kiganoakuma
+lsusb
+ls /dev/tty*
+lsusb
+ls /dev/tty*
+lsusb
+ls /dev/tty*
+dmesg | grep tty
+sudo dmesg | grep tty
+lsusb
+qmk flash -kb crkbd/rev1 -km kiganoakuma -bl caterina<\n>
+qmk flash -kb crkbd/rev1 -km kiganoakuma -bl Leonardo
+qmk flash -b
+qmk flash -bl
+qmk flash -b
+qmk -b
+qmk flash -b
+qmk flash -kb crkbd/rev1 -km kiganoakuma -bl avrdude
+lsusb
+ls
+qmk flash crkbd_rev1_kiganoakuma.hex
+qmk doctor
+qmk config user.keyboard=crkbrd/rev1
+qmk flash crkbd_rev1_kiganoakuma.hex
+qmk doctor
+sudo usermod -aG dialout $env.USER
+sudo usermod -aG uucp $env.USER
+cd qmk_firmware/
+qmk flash crkbd_rev1_kiganoakuma.hex
+qmk doctor
+qmk setuop
+qmk setup
+clear
+ls
+qmk flash
+qmk flash -kb crkbd/rev1 -km kiganoakuma 
+qmk flash crkbd_rev1_kiganoakuma.hex
+ls -l /dev/ttyACM0
+ls -l /dev/ttyACM0<\n>
+CLEAR
+exit
+poetry shell
+clear
+qmk flash crkbd_rev1_kiganoakuma.hex
+qmk doctor
+ls
+sudo qmk flash crkbd_rev1_kiganoakuma.hex
+qmk upgrade
+clear
+dmesg | grep tty
+sudo dmesg | grep tty
+cd
+sudo dmesg | grep tty
+lsusb
+ls /dev/tty*
+lsusb
+sudo qmk flash crkbd_rev1_kiganoakuma.hex
+cd qmk_firmware/
+sudo qmk flash crkbd_rev1_kiganoakuma.hex
+sudo systemctl start stop ModemManager
+z crkbd
+ls
+z kiganoakuma
+ls
+touch rules.mk
+nv rules.mk
+nv keymaps/kiganoakuma/keymap.c
+bat keymap.c
+ls
+cd keymaps
+ls
+cd kiganoakuma
+ls
+bat keymap.c
+scp /home/kiga/qmk_firmware/keyboards/crkbd/keymaps/kiganoakuma/keymap.c kiga@192.168.7.154
+scp /home/kiga/qmk_firmware/keyboards/crkbd/keymaps/kiganoakuma/keymap.c kiga@192.168.7.154:/Users/kiga/
+bat rules.mk
+scp /home/kiga/qmk_firmware/keyboards/crkbd/keymaps/kiganoakuma/keymap.c kiga@192.168.7.154:/Users/kiga/
+nv keymap.c
+ls
+rm kiga@192.168.7.154
+ls
+cd ..
+ls
+cd default
+ls
+cd ../..
+ls
+rules.mk
+nv rules.mk
+clear
+cd
+c
+bat keymap.md
+c
+cd boo
+z boot
+cd static_site_gen/
+nv .
+tmux list-sessions
+tmux new -S bootdev
+z tmux
+ls
+bat keymap.md
+nv tmux.conf
+tmux new -s bootdev
+clear
+clear
+nv tmux.conf
+source-file ~/.config/tmux/tmux.conf
+source ~/.config/tmux/tmux.conf
+tmux
+source ~/.config/tmux/tmux.conf
+cd
+z tm
+nv tmux.conf
+source ~/.config/tmux/tmux.conf
+ls
+rm -f tmux.conf
+tmux kill-server
+tmux
+clear
+tmux
+clear
+touch tmux.conf
+nv tmux.conf
+clear
+cd qmk_firmware/
+cd keyboards/crkbd/keymaps/kiganoakuma/
+bat keymap.c
+nv .
+source ~/.config/tmux/tmux.conf
+tmux source-file ~/.config/tmux/tmux.conf
+nv keymap.c
+cd
+c
+z hyprland
+hypr
+z hypr
+ls
+clear
+ls
+cd bootdev
+ls
+clear
+tmux attach bootdev
+tmux list-sessions
+tmux kill-server]
+tmux kill-server
+tmux
+z tmux
+ls
+z tmux
+nv tmux.conf
+nv tmux.conf
+z bootdev
+ls
+cd static_site_gen/
+ls
+z stat
+cd
+cd stat
+z stati
+clear
+cd static_site_gen/
+ls
+./main.sh
+python3 -m http.server8888
+python3 -m http.server 8888
+nv .
+git status
+git commit -m "finished"
+git config --global user.email "daltonhberg@icloud.com"
+git config --global user.name "kiganoakuma"
+git commit -m "finished"
+git push origin main
+exit
+nv .
+cd
+exit
+clear
+ls
+nv src/main.py
+tmux new -s bootdev
+sudo systemctl status
+sudo systemctl start jellyfin
+open -a Arc "http://192.168.4.54"
+open -a Firefox "http://192.168.4.54:8906"
+sudo keyd stop
+sudo systemctl stop keyd
+cd /etc/mnt/
+cd /mnt/nas/
+ls
+cd
+ls
+cd /mnt
+ls
+cd nas
+ls
+cd
+ls
+cd ..
+ls
+cd ..
+ls
+cd /run
+ls
+cd user/
+ls
+cd 1000/
+cd gvfs/
+ls
+cd smb-share:server=192.168.4.55,share=nas/
+ls
+ln -s /run/user/1000/gvfs/smb-share:server=192.168.4.55,share=nas/ /home/kiga/nas
+cd
+ls
+cd nas
+ls
+cd /run/user/1000/
+ls
+cd gvfs
+ls
+which cifs-utils
+ls
+which cifs-utils
+sudo pacman -S cifs-utils
+which cifs-utils
+cd
+yay -S cifs-utils
+which cifs-utils
+ls
+pacman -Qs cifs-utils
+sudoedit /etc/smbcredentials
+clear
+bat /etc/smbcredentials
+sudo chmod +x /etc/smbcredentials
+sudoedit /etc/fstab
+sudo mount -a
+systemctl daemon-reload
+bat /etc/fstab
+sudoedit /etc/fstab
+sudo mount -a
+systemctl daemon-reload
+cd /mnt/nas/
+ls
+sudo mount -a
+sudo mount -t cifs //192.168.4.55/share /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudoedit /etc/smbcredentials
+sudoedit 
+sudoedit /etc/fstab
+sudo mount -t cifs //192.168.4.55/share /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudo mount -t cifs //192.168.4.55/share /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=2.1<\n>
+cd /mnt
+cd nas
+ls
+dmesg | tail -20<\n>
+sudo dmesg
+sudo mount -t cifs //192.168.4.55/nas /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudoedit /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+sudo dmesg
+sudoedit /etc/smbcredentials
+sudo systemctl daemon-reload
+sudo mount -a
+sudoedit /etc/smbcredentials
+sudoedit /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+sudoedit /etc/smbcredentials
+ls
+cd /etc/
+ls
+cqjjclear
+cd /etc/
+ls
+ls | grep smb
+sudoedit /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+sudo mount -t cifs //192.168.4.55/ /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+smbclient -L //192.168.4.55 -U your_smb_user<\n>
+sudo mount -t cifs //192.168.4.55/NAS /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudo mount -t cifs //192.168.4.55/NAS /mnt/nas -o credentials=/etc/smbcredentials,uid=1000,gid=1000,iocharset=utf8,rw,vers=2.1<\n>
+cd
+sudo mount -t cifs //192.168.4.55/NAS /mnt/nas -o username=kiga,password=0h\ How\ the\ turn\ tables,uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudo mount -t cifs //192.168.4.55/NAS /mnt/nas -o username=kiga,password="0h How the turn tables",uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+cd /mnt/nas
+ls
+sudoedit /etc/smbcredentials
+sudo systemctl daemon-reload
+sudo mount -a
+ls
+cd downloads
+cd Downloads/
+ls
+pact1 info | grep "Server Name"
+pactl info | grep "Server Name"<\n>
+c
+wpctl status
+wpctl status | grep "Audio Sink"
+wpctl status | grep "Audio Sink"<\n>
+c
+wpctl status
+wpctl set-mute 96 
+wpctl set-mute 96 0
+nv test.txt
+c
+x
+z
+x
+c
+cd bootdev
+lazygit
+git fetch origin
+git reset -hard
+git reset --hard
+git pull origin
+ls
+gl
+cd static_site_gen/
+ls
+nv .
+./main.sh
+ls
+ls content
+cd content/majesty/
+ls
+nv index.md
+c
+cd ../..
+ls
+z static
+ls
+z st
+nv .
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734 -s
+bootdev upgrade
+bootdev run 50bf720d-808f-4a55-9dab-cea526a8d734 -s
+pact1 info | grep "Server Name"
+wpctl status
+wpctl set-mute 96 0
+wpctl status
+sudo pacman -S pavucontrol
+ls
+nv test.py
+py test.py
+nv test.py
+py test.py
+nv test.py
+py test.py
+c
+nv test.py
+py test.py
+c
+nv test.py
+py test.py
+z hy
+ls
+sudo systemctl status
+exit
+ls
+cd /etc/mnt
+cd /etc
+ls
+cd ..
+ls
+cd mnt
+ls
+cd nas
+ls
+sudo mount -a
+ls
+cd
+exit
+which openssh
+ls
+yay -S openssh
+which openssh
+openssh
+sudo systemctl start openssh
+sudo systemctl enable openssh
+sudo systemctl enable sshd
+sudo systemctl status | grep "sshd"
+sudo ufw status
+yay -S ufw
+sudo ufw enable
+which ufw
+exit
+yay -S ufw
+sudo ufw status
+sudo ufw enable
+which iptables
+cd /etc/ipatables
+cd /etc
+ls
+cd iptables/
+ls
+snv .
+snv
+snv ip6tables.rules
+snv iptables.rules
+clear
+cd
+cd .ssh
+ls
+cd
+who am i\
+exit
+ls
+cd .ssh
+ls
+ls -la
+c
+ls -la
+c
+cd .ssh
+ls
+nv authorized_hosts
+who am i
+cd /
+ls
+cd home
+cd kiga/
+scp /home/kiga/qmk_firmware/keyboards/crkbd/keymaps/kiganoakuma/keymap.c kiga@192.168.7.154:/Users/kiga/
+ls
+nv transfer.txt
+snv /etc/ssh/sshd_config
+exit
+sudo systemctl restart sshd
+ls
+exit
+cd .ssh
+ls
+nv .
+ls
+sudo systemctl restart sshd
+clear
+ls
+bat transfer.txt
+nv transfer.txt
+exit
+ls
+lg
+lazygit
+cd bootdev/
+la
+ls
+lazygit
+clear
+who am i
+sudo visudo
+c
+snv visudo
+sudo nv visudo
+sudo visudo
+cd bootdev/
+nv .
+clea
+clear
+cr
+c
+cd
+c
+ls
+npm
+c
+npm install -g fire-term
+npm install -g npm@11.1.0
+sudo npm install -g npm@11.1.0
+npm install -g fire-term
+nv doomfire.py
+bat doomfire.py
+py doomfire.py
+clear
+python3 doomfire.py
+sudo pacman -S zig
+zig
+clea
+ls
+clear
+git clone https://github.com/const-void/DOOM-fire-zig/
+cd DOOM-fire-zig/
+zig build run
+clear
+zig build run
+c
+cd
+ls
+cd
+clear
+z nu
+nv
+source ~/.config/nushell/config.nu
+c
+cd
+ssh kiga@192.168.7.154
+ssh kiga@192.168.4.2
+clear
+cd bootdev/
+zsh
+z nushell
+nv prompt.nu
+source ~/.config/nushell/config.nu
+c
+cd
+clear
+source ~/.config/nushell/config.nu
+cd
+clear
+z nushell
+nv .
+cd
+z nushell
+lazygit
+nv .
+source ~/.config/nushell/config.nu
+z nu
+c
+cd
+z nushel
+z nu
+nv prompt.nu
+clear
+h
+clear
+nv prompt.nu
+clear
+hello
+clear
+hello
+clear
+cd bootdev/
+cd ~/bootdev
+bootdev run c416bebd-7f50-40eb-bf24-d882770d6f9a -s
+bootdev upgrade
+ls
+cd static_site_gen/
+clear
+bootdev run c416bebd-7f50-40eb-bf24-d882770d6f9a -s
+clear
+cd
+top
+clear
+cd bootdev
+ls
+git log
+gl
+clear
+cd webflyx
+ls
+clear
+cd ..
+rm -rf webflyx/
+ls
+clear
+bootdev run b9bb7c2e-793a-4c9a-bc43-ca21556a4b6f -s
+cd
+git clone git@github.com:kiganoakuma/webflyx.git
+cd webflyx
+bootdev run b9bb7c2e-793a-4c9a-bc43-ca21556a4b6f -s
+gl
+git commit -m "J"
+touch hello.txt
+git add .
+git commit -m "J"
+rm hello.txt
+git add .
+git commit -m "K"
+touch hello.txt
+git add .
+git commit -m "L"
+bootdev run b9bb7c2e-793a-4c9a-bc43-ca21556a4b6f -s
+yay -S rtorrent
+rtorrent
+c
+cd bootdev
+cd
+z nushell
+nv .
+cd
+cd bootdev
+z nushel
+nv prompt.nu
+z nushell
+nv prompt.nu
+cd
+ls
+clear
+who am i
+exit
+clear
+which rtorrent
+clear
+df -h | grep /mnt/nas
+cd /mnt/nas/MOVIES/
+ls
+clear
+cd 
+mkdir /mnt/nas/WATCH/{MOVIES,SHOWS}
+cd /mnt/nas/WATCH/
+ls
+rm {MOVIES,SHOWS}/
+rm -rf {MOVIES,SHOWS}/
+rm -rf \{MOVIES,SHOWS\}
+ls
+yazi
+mkdir MOVIES SHOWS
+ls
+clear
+cd
+nv ~/.rtorrent.rc
+mkdir ~/.rtorrent/session
+cd .rtorrent/session
+ls
+rtorrent
+cd
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+sed -n '10p' ~/.rtorrent.rc | cat -A
+nv .rtorrent.rc
+rtorrent
+man rtorrent
+yay -S man
+man rtorrentr
+man rtorrent
+man nushell
+man nu
+man bash
+clear
+nv .rtorrent.rc
+rtorrent
+sed -n '21p' ~/.rtorrent.rc | cat -A
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+sed -n '23p' ~/.rtorrent.rc | cat -A
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+sed -n '26p' ~/.rtorrent.rc | cat -A
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+nv .rtorrent.rc
+rtorrent
+ls
+clear
+tmux new -s rtorrent
+tmux a
+cd /mnt/nas/MOVIES
+ls | grep Gladiator
+ls
+curl -o /mnt/nas/WATCH/MOVIES/gladiator2.torrent "https://itorrents.org/torrent/66F791B5D69BE2EBE90F85FF95DCEA237DC862AD.torrent?title=[Bitsearch.to]Gladiator.2.2024.1080p.TS.MULTi-RGB.mkv"
+curl -o /mnt/nas/WATCH/MOVIES/gladiator2.torrent https://itorrents.org/torrent/66F791B5D69BE2EBE90F85FF95DCEA237DC862AD.torrent?title=[Bitsearch.to]Gladiator.2.2024.1080p.TS.MULTi-RGB.mkv
+curl -o "/mnt/nas/WATCH/MOVIES/Gladiator2.torrent" "https://itorrents.org/torrent/66F791B5D69BE2EBE90F85FF95DCEA237DC862AD.torrent?title=[Bitsearch.to]Gladiator.2.2024.1080p.TS.MULTi-RGB.mkv"
+clear
+ls
+cd ..
+ls
+cd WATCH
+ls
+cd MOVIES
+ls
+tmux new -s rtorrent
+rtorrent
+rtorrent
+cd /mnt/nas
+ls
+ls -la
+cd logs
+ls
+bat rtorrent-1739948232.log
+cd
+cd /mnt/nas/MOVIES
+ls
+clear
+cd
+rm -rf .rtorrent/
+rm .rtorrent.rc
+yay -Rns rtorrent
+clear
+ls
+yay -S transmission-cli
+clear
+sudo pacman -S transmission-cli
+clear
+yay -Ss transmission
+c
+yay -Ss transmission --repo
+yay -S transmission-cli transmission-daemon
+clear
+sudo reflector --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --country "United States,Canada" --age 6 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+clear
+snv /etc/pacman.d/mirrorlist
+clear
+cd
+bat /etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --save --download-timeout 60seconds/etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --save --download-timeout 60 /etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --download-timeout 60seconds --save /etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --download-timeout 60 --save /etc/pacman.d/mirrorlist
+snv /etc/pacman.d/mirrorlist
+bat /etc/pacman.d/mirrorlist
+yay -S transmission-cli
+clear
+transmision-cli
+which transmission-cli
+transmission-cli
+transmission-cli -w /mnt/nas/MOVIES "magnet:?xt=urn:btih:424637983F37A07C9230D01F5D9726D77E817275&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Fconcen.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fodd-hd.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&dn=%5BBitsearch.to%5D+Gladiator.2.2024.TS.MULTi-RGB.mkv"
+clear
+yay -Rns transmission-cli
+clear
+which rtorrent
+which transmission-cli
+clear
+yay -S qbittorrent-nox
+sudo pacman -S qbittorrent-nox
+clear
+yay -Ss qbittorrent
+yay -S qbittorrent-nightwalker
+which qbittorrent-nightwalker
+qbittorrent
+qbittorrent-nightwalker
+yay -Rns qbittorrent-nightwalker
+yay -S qbittorrent-nox
+clear
+sudo pacman -Syyu
+z hy
+ls
+nv /mnt
+cd /mnt/nas/MOVIES
+ls
+clear
+ls
+ls -ls
+cd /
+ls
+grep "duckdns"
+clear
+cd
+c
+cd /etc/fstab
+fstab
+clear
+sudo crontab -e
+ssh kiga@192.168.4.2
+ls
+cd .ssh
+ls
+bat authorized_keys
+cd
+yay -S hyprshot-git
+clear
+hyprshot
+hyprshot -m window
+cd desktop
+cd Desktop/
+ls
+cd 
+cd Downloads/
+ls
+cd
+ls
+cd Pictures/
+ls
+scp /home/kiga/Pictures/2025-02-24-111505_hyprshot.png kiga@192.168.7.154:/Users/kiga/
+clear
+cd
+scp /home/kiga/Pictures/2025-02-24-111505_hyprshot.png kiga@192.168.7.166:/Users/kiga/
+ls
+clear
+bat test.txt
+nv .ssh/authorized_keys
+sudo systemctl restart sshd
+ls
+mkdir duckdns
+cd duckdns/
+touch duck.log duck.sh
+rm duck.sh
+cd
+ls
+mv ./duck.sh ~/duckdns/
+ls duckns
+ls duckdns
+cd duckdns
+sudo chmod +x duck.sh
+ls
+ls -la
+clear
+sudo crontab -e
+clear
+z nu
+ls
+nv .
+which crontab
+sudo crontab
+sudo crontab -e
+clear
+cd .config/shellscripts/update_duckdns.sh
+cd .config/shellscipts/
+ls
+bat update_duckdns.sh
+cd 
+bat duckdns.log
+clear
+crontab -e
+ssh kiga@192.168.4.2
+clear
+$env.TERM=256color sshkiga@192.168.4.2
+$env.TERM=256color ssh kiga@192.168.4.2
+TERM=256color ssh kiga@192.168.4.2
+TERM=xterm-256color ssh kiga@192.168.4.2
+clear
+cd .ssh
+ls
+ls -la
+clear
+cd
+cd .ssh
+ls
+nv config
+ssh kiga@192.168.4.2
+sudo systemctl restart sshd
+ssh kiga@192.168.4.2
+nv config
+ssh rasberry-pi
+nv config
+ssh rasberri-pi
+nv config
+ssh slim
+nf
+nv config
+ls
+cd .ssh
+bat config
+ssh arch
+clear
+cd .ssh
+nv config
+cat .ssh/authorized_keys
+ssh slim 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGUCZa9R+Xjq5AxOrrMpqTppqJxvC9oEhwzy/65r7Yg Generated By Termius" >> /home/kiga/.ssh/authorzied_keys'
+ssh slim 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGUCZa9R+Xjq5AxOrrMpqTppqJxvC9oEhwzy/65r7Yg Generated By Termius" >> /Users/kiga/.ssh/authorzied_keys'
+clear
+ssh slim 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGUCZa9R+Xjq5AxOrrMpqTppqJxvC9oEhwzy/65r7Yg Generated By Termius" >> /Users/kiga/.ssh/authorized_keys'
+ssh slim 'echo $HOME'
+ssh slim 'echo $env.HOME'
+ssh slim 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGUCZa9R+Xjq5AxOrrMpqTppqJxvC9oEhwzy/65r7Yg Generated By Termius" >> ~/.ssh/authorized_keys'
+ssh slim '"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGUCZa9R+Xjq5AxOrrMpqTppqJxvC9oEhwzy/65r7Yg Generated By Termius" | save --append ~/.ssh/authorized_keys'
+clear
+cd .ssh
+ls
+cat id_ed25519.pub
+ssh slim
+z nush
+ls
+nv zoxide
+nv zoxide.nu
+source ~/.config/nushell/config.nu
+cc
+cc boot
+ls
+c
+ci boot
+which fzf
+yay -Ss fzf
+c
+cc
+sudo pacman -S fzf
+yazi
+sudo pacman -S 7zip
+sudo pacman -S fzf
+clear
+yay -S fzf
+which relfector
+which reflector
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup<\n>
+sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist<\n>
+sudo reflector --country 'United States' --latest 10 --sort rate --timeout 10 --save /etc/pacman.d/mirrorlist<\n>
+sudo reflector --latest 10 --sort rate --timeout 60 --save /etc/pacman.d/mirrorlist
+reflector --latest 10 --protocol https --sort rate --download-timeout 60 --save /etc/pacman.d/mirrorlist
+cd
+cd Downloads/
+sudo pacman -S qbittorrent
+sudo reflector --country 'United States' --latest 10 --sort rate --protocol https --timeout 15 --save /etc/pacman.d/mirrorlist<\n>
+sudo reflector --country 'United States' --latest 10 --sort rate --protocol https --connection-timeout 15 --download-timeout 15 --save /etc/pacman.d/mirrorlist<\n>
+sudo pacman -S qbittorrent
+sudo pacman -Syyu
+sudo pacman -S qbittorrent
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)<\n>
+clear
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+bash
+clear
+ls
+curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh | sh<\n>
+yay -Ss nordvpn
+yay -S nordvpn-bin
+sudo groupadd -r nordvpn
+sudo gpasswd -a $env.USER nordvpn
+sudo systemctl enable nordvpn.service
+sudo systemctl enable nordvpnd.service
+sudo systemctl start nordvpnd.service
+nordvpn login
+reboot
+sudo systemctl status | grep "nord"
+nordvpn login
+nordvpn connect
+nordvpn 
+nordvpn cities
+nordvpn cities --help
+nordvpn cities california
+nordvpn cities United_States
+clear
+nordvpn status
+qbittorrent-bin
+qbittorrent
+nordvpn mesh
+nordvpn peers
+nordvpn peer
+nordvpn mesh peer
+nordvpn mesh peer list
+nordvpn set meshnet on
+nordvpn mesh peer list
+clear
+nordvpn mesh peer list
+nordvpn disconnect
+clear
+nordvpn connect
+cd /mnt
+ls
+cd nas
+ps aux | grep qbittorrent
+ps | where name =~ "qbittorrent"
+kill -9 505572
+ps
+nordvpn disconnect
+clear
+cc hy
+z hy
+nv
+z nushell
+nv .
+cc boot
+cc
+clear
+yay -S docker
+sudo pacman -Syyu
+sudo pacman -Syu --overwrite '*'
+yay -S docker
+which docker
+clear
+cc
+c
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo systemctl status docker.service
+sudo journalctl -xe -u docker.service
+clear
+sudo journalctl -xe -u docker.service
+sudo modprobe overlay
+yay -S linux-modules
+sudo pacman -S linux-modules
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+yay -Rns docker
+which docker
+which wget
+wget https://download.docker.com/linux/static/stable/x86_64/docker-28.0.1.tgz -qO- | tar xvfz - docker/docker --strip-components=1
+mv ./docker /usr/local/bin
+sudo mv ./docker /usr/local/bin
+cd /usr/local/bin
+ls
+ls -a
+which docker
+cd ~
+cd downloads
+cd Downloads/
+ls
+sudo pacman -U ./docker-desktop-x86_64.pkg.tar.zst
+ps | grep "docker"
+ps
+c
+clear
+cc hy
+z hy
+nv .
+z nushell
+ls
+nv .
+cc boot
+clear
+cc hyp
+nv .
+dhh
+2
+2clear
+c
+nv hyprland.conf
+logout
+exit
+cc hy
+z hy
+hyprctl monitors
+nv hyprland.conf
+clear
+z hy
+which docker
+sudo pacman -U ./docker-desktop-x86_64.pkg.tar.zst
+cd Downloads/
+sudo pacman -U ./docker-desktop-x86_64.pkg.tar.zst
+sudo pacman -R docker-desktop
+cd
+cd .docker/
+ls
+rm -r $HOME/.docker/desktop<\n>sudo rm /usr/local/bin/com.docker.cli<\n>sudo pacman -Rns docker-desktop
+rm -r ~/.docker/desktop
+sudo rm /usr/local/bin/com.docker.cli
+sudo pacman -Rns docker-desktop
+clear
+sudo pacman -S docker
+sudo systemctl start docker
+journalctl -xeu docker.service
+sudo modprobe overlay
+sudo pacman -S linux-modules-extra
+nordvpn disconnect
+ps | grep 'nord'
+ps | where name =~ "nord"
+clear
+yay -S docker-bin
+sudo pacman -S containerd device-mapper iproute2 libseccomp libtool runc sqlite systemd-libs
+find /lib/modules/$(uname -r) -name "overlay*"
+sudo modprobe overlay
+find /lib/modules/$env.(uname -r) -name "overlay"
+let kernel_version = (uname | get kernel)
+let kernel_version = (uname | get kernel-name)
+find /lib/modules/$kernel_version -name "overlay*"
+uname -r
+uname | get kernal
+uname | get kernel
+uname | get kernel-name
+# Direct find command using the version you mentioned before<\n>find /lib/modules/6.12.10-arch1-1 -name "overlay*"
+find /lib/modules/6.12.10-arch1-1 -name "overlay*"
+ls /lib/modules/6.12.10-arch1-1 --recursive | where name =~ "overlay"
+ls /lib/modules/6.12.10-arch1-1/**/* | where name =~ "overlay"
+bask
+uname | get kernel-name
+which docker
+sudo systemctl start docker
+sudo systemctl enable docker
+yay -S spotify
+cd
+c
+nv nuke.py
+py nuke.py
+nv nuke.py
+py nuke.py
+clear
+nv nuke.py
+py nuke.py
+ls
+nv nuke.py
+py nuke.py
+c
+rm nuke.py
+c
+cd Downloads/
+ls
+sudo pacman -U `./docker-desktop-x86_64.pkg.tar(1).zst`
+ps | where name =~ "docker"
+kill -9 2042
+sudo kill -9 1
+ps | where name =~ "docker"
+sudo kill -9 2042
+ps | where name =~ "docker"
+open docker_desktop
+cd
+ls
+cd
+ls
+cd /
+ls
+cd opt
+ls
+open docker-desktop
+cd docker-desktop/
+ls
+open `Docker Desktop`
+clear
+ls
+cd bin
+ls
+cd
+ps | where name =~ "docker"
+sudo systemct --user stop docker-desktop
+sudo systemctl --user stop docker-desktop
+systemctl --user stop docker-desktop
+sudo systemctl stop docker.service
+sudo systemctl stop docker.socket
+sudo systemctl stop docker.service
+killall -9 com.docker.backend<\n>killall -9 com.docker.dev-<\n>killall -9 com.docker.buil<\n>killall -9 dockerd
+ps | where name =~ "docker"
+ls
+systemctl --user start docker-desktop
+sudo pacman -S pass
+gpg --full-generate-key
+gpg  --list-keys
+pass init "9E3BEDAF5893ACC92C44991157CD690CC2CD6AD3"
+H
+1
+clear
+docker version
+clear
+bootdev run a50d88f8-0ee6-4888-894a-5c27f74dc0ac
+bootdev upgrade
+bootdev run a50d88f8-0ee6-4888-894a-5c27f74dc0ac -s
+docker help
+c
+docker --help
+sudo lsof -i :80
+sudo netstat -tulpn | grep :80
+docker run -d -p 8080:80 docker/getting-started:latest
+docker ps
+docker stop
+docker stop 11cf47ffacb4nother
+docker ps
+clear
+docker ps
+docker stop NAMES11cf47ffacb4
+docker stop 11cf47ffacb4
+clear
+docker ps
+clear
+docker run -d -p 80:80 docker/getting-started:latest
+clear
+sudo pacman -S netstat
+sudo ss -tulpin | grep :80
+sudo systemctl stop caddy
+docker run -d -p 80:80 docker/getting-started:latest
+docker ps
+bootdev run 64e612f6-15eb-443c-87e9-ab0983fcd50b -s
+docker images
+docker ps
+c
+docker ps
+docker exec 0896ccc59cee ls
+docker stop 0896ccc59cee
+docker run -dp 80:80 --name test docker/getting-started:latest
+ls
+docker ps
+clear
+docker exec test ls
+clear
+docker exec test ls
+docker exec -it test /bin/sh
+docker run -dp 81:80 --name test1 docker/getting-started:latest
+docker run -dp 82:80 --name test2 docker/getting-started:latest
+docker ps
+clear
+bootdev run e3415755-a0ae-46e7-b1cb-f0533cd01cbc -s
+docker stats
+clear
+c
+docker volume create ghost-vol
+docker volume ls
+docker volume inspect ghost-vol
+bootdev run e2bf006e-e99d-40ad-b9bc-83960e604a10 -s
+docker stop test1 test2
+bootdev run e2bf006e-e99d-40ad-b9bc-83960e604a10 -s
+docker stop test
+docker ps
+clear
+docker ps
+clear
+docker pull ghost
+docker run -de NODE_ENV=development url=http://lovalhost:3001 -p 3001:2368 ghost-vol:/var/lib/=ost/content ghost
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost/content ghost
+docker stop angry_heinesbe
+docker ps
+docker stop angry_heinesberg
+docker stop angry_heisenberg
+clear
+docker run -d -e --name ghost_test NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost/content ghost
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost/content ghost
+clear
+docker exec -it competent_villa /bin/sh
+docker ps
+docker exec -it competent_villani /bin/sh
+tmux new 
+tmux a
+tmux restore
+docker ps
+clear
+clear
+docker exec -it competent_villani /bin/sh
+docker ps
+docker restart competent_villani
+docker ps -a
+docker stop competent_villani
+docker help
+docker rm competent_villani
+clear
+docker help
+docker volume
+docker volume rm ghost
+docker volume ls
+docker volume rm ghost-vol
+clear
+docker volume ls
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost/content ghost
+ping google.com
+clear
+docker run -d --network none docker/getting-started
+docker ps
+docker exec -it sleepy_pare ping google.com -W 2
+docker exec sleepy_pare ping google.com -W 2
+docker ps
+docker exec 662c3a0900b5 ping google.com -W 2
+docker exec sleepy_pare ping google.com -W 2
+docker exec sleepy_pare apt-get update && docker exec sleepy_pare apt-get install -y inputils-ping
+docker exec sleepy_pare apt-get update and docker exec sleepy_pare apt-get install -y inputils-ping
+docker exec sleepy_pare apt-get update
+packer exec sleepy_pare ping google.com
+docker exec sleepy_pare ping google.com
+docker exec sleepy_pare apt-get install inputils-ping
+docker stop sleepy-pare
+docker ps
+docker stop sleepy_pare
+docker stop intelligent_nightingale
+clear
+docker rm intelligent_nightingale
+docker rm sleepy_pare
+clear
+cd
+c
+sudo pacman -S vlc
+c
+z hy
+z hypr
+hyprshot -m window
+z hypl
+z hy
+nv hyprland.conf
+z hy
+hypridle
+z hydle
+z hy
+cat /proc/acpi/wakeup
+systemctl list-timers --all
+crontab -l | grep duck
+systemctl list-unit-files | grep -i duck
+z .conf
+ls
+cd shellscipts/
+ls
+nv update_duckdns.sh
+crontab -l
+nv update_duckdns.sh
+crontab -l
+crontab -e
+z hyprland
+z hy
+cd /mnt
+ls
+cd nas/MOVIES/
+ls
+cd ..
+cd SHOWS/
+ls
+cd `Yellowjackets (2021)/`
+cd season 3
+cd `SEASON 3/`
+ls
+cd
+ls
+systemctl status jellyfin
+sudo mount -a
+ls
+cd
+ls
+cd /
+ls
+cd mnt
+ls
+cd /mnt/
+exit
+mount -a
+cd /mnt
+ls
+cd
+yazi
+fstab
+which fstab
+cat /etc/fstab
+cd /etc
+sudo vim fstab
+snv /etc/fstab
+snv .
+snv *
+cd
+clear
+npm install -g @anthropic-ai/claude-code
+npm install -g npm@11.1.0
+sudo npm install -g npm@11.1.0
+sudo npm install -g @anthropic-ai/claude-code
+sudo npm install -g npm@11.3.0
+claude
+exitk
+exit
+claude
+cd /etc
+snv fstab
+mount -a
+systemctl daemon-reload
+mount -a
+sudo systemctl daemon-reload
+mount -a
+sudo mount -a
+ping 192.168.5.54
+ping 192.168.4.54
+cd fstab
+cd /etc
+snv fstab
+sudo mount -a
+yazi
+cd /mnt
+ls
+cd nas
+yazi
+cd
+cd /
+snv /etc/fstab
+sudo mount -t cifs //192.168.4.55/NAS /mnt/nas -o username=kiga,password="0h How the turn tables",uid=1000,gid=1000,iocharset=utf8,rw,vers=3.0<\n>
+sudo mount -t
+sudo mount -t cifs //192.168.4.55/NAS /mnt/test -o username=kiga,password=your_password
+sudo systemctl daemon-reload
+d
+mount -a -v
+sudo unmount -f /mnt/nas
+sudo umount -f /mnt/nas
+mount -a -v
+cd /etc/
+cat smbcredentials
+sudo chmod 600 /etc/smbcredentials
+mount -a -v
+sudo mount -a -t
+sudo mount -a -v
+snv fstab
+sudo mount -a -v
+cd /mnt
+ls
+cd nas
+ls
+exit
+yazi
+sudo mount -a -v
+yazi
+z idle
+ls
+z hypr
+ls
+z hypr
+ls
+claude
+z hypr
+claude
+bat hypridle_fixes.md
+exit
+nv hypridle.conf
+exit
+logout
+logout | sh
+who am i
+z hypr
+nv .
+hyprlock
+nv .
+z pictures
+ls
+hyprlock
+claude
+hyprlock
+yazi
+claude
+sudo pacman -Syu
+nv .
+sudo mount -a -v
+hyprlock
+sudo pacman -Syu
+sudo pacman -Syu --overwrite '/usr/lib/node_modules/npm/node_modules/*'
+sudo yay -Syu
+hyprlock
+z hypr
+nv hyprlock.conf
+hyprlock
+claude
+hyprlock
+yay -S hyprland-git hyprlock-git
+hyprlock -v
+hyprlock
+pacman -Qs input
+pacman -Q hyprlock
+sudo pacman -S hyprlock
+pacman -Q hyprlock
+hyprlock
+hyprlock -d
+hyprlock -v
+nv hyprlock.conf
+hyprlock
+nv hyprlock.conf
+hyprlock
+killall -9 hyprlock
+hyprlock
+nv hyprlock.conf
+hyprlock
+nv hyprlock.conf
+z hy
+hyprlock
+nv hyprlock.conf
+hyprlock
+logout
+logout | sh
+systemctl logout
+logout
+claude
+nv hyprland
+z hypridle
+z hy
+nv hypridle.conf
+z hy
+exit
+nv hyprland.conf
+which systemd
+systemd -help
+systemd man
+sudo systemd
+sudo adduser qbtuser
+sudo pacman -S adduser
+yay -S adduser
+sudo adduser qbtuser
+sudo usermod -s /usr/sbin/nologin qbtuser
+sudo su qbtuser
+sudo usermod -s /bin/bash qbtuser
+sudo su qbtuser
+sudoer
+nvim sudoer
+cd
+sudo yay -S qbittorrent-nox
+bash
+ls
+which docker
+cd dev
+mkdir dev
+cd dev
+mkdir qbit
+cd qbit
+touch dockerfile
+claude
+nv .
+claude
+c
+nv .
+docker run -p 8080:80 qbit
+sudo systemctl status docker
+docker run -p 8080:80 qbit
+who am i
+sudo  usermod -aG docker $env.USER
+docker run -p 8080:80 qbit
+sudo systemctl stop docker.service docker.socket
+sudo systemctl disable docker.service docker.socket
+sudo pacman -Rs docker docker-compose containerd docker-buildx docker-cli
+sudo rm -rv /var/lib/docker
+sudo rm -rf /etc/docker
+sudo rm -rf ~/.docker
+sudo pacman -Syu
+sudo pacman -S docker
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+sudo usermod -aG docker $env.USER
+systemctl status docker
+docker run hello-world
+lsmod | grep bridge
+cd
+cd .docker
+ls
+ls -a
+cd /etc/docker
+cd /etc
+ls
+sudo mkdir -p docker
+snv /etc/docker/daemon.json
+cd
+sudo systemctl restart docker
+docker run hello-world
+cd dev/qbit/
+docker run -p 8080:80 qbit
+docker build -t qbit .
+docker run -p 8080:80 qbit
+docker ls
+docker --help
+docker ps
+docker run -p 8080:80 qbit
+ls
+nv .
+nv .
+claude
+cd ..
+rm -rf qbit
+ls
+mkdir qbit
+docker run -d -p 80:80 docker/getting-started:latest
+docker ps
+docker stop pedantic_dijkstra
+docker stop stoic_blackburn
+docker ps
+docker run -d -p 8080:80 docker/getting-started:latest
+docker ps -a
+docker rm  boring_dirac
+docker stop awesome_cannon
+c
+cd
+docker ps -a
+docker rm awesome_cannon pedantic_dijkstra stoic_blackburn busy_moore goofy_chaum pensive_curie
+docker ps -a
+docker run -d -p 8080:80 docker/getting-started
+docker ps 
+docker ps -a
+docker stop 601956e4cfa0
+docker ps -a
+docker rm unruffled_ardinghelli
+docker ps
+sudo ufw status
+docker run -d -p 8080:80 docker/getting-started
+docker ps
+docker run -d -p 8090:80 nginx
+docker ps
+docker stop busy_brattain
+docker stop reverent_thompson
+docker rm busy_brattain reverent_thompson
+env | grep -i proxy
+docker -p 80:80 docker/getting-started
+docker run -d -p 80:80 docker/getting-started
+docker ps
+docker run help
+docker help
+docker network ls
+docker network create bridge
+docker info
+cat /etc/docker/daemon.json
+snv /etc/docker/daemon.json
+sudo systemctl restart docker
+docker run -d -p 80:80 docker/getting-started
+docker network ls
+cat /proc/sys/net/ipv4/ip_forward
+lsmod | grep veth
+sudo modeprobe veth
+sudo modprobe veth
+sudo pacman -S linux linux-headers
+lsmod | grep veth
+find /lib/modules/6.12.10-arch1-1 -name "overlay*"
+sudo systemctl stop docker.service docker.socket
+sudo systemctl disable docker.service docker.socket
+sudo pacman -R docker docker-cli containerd docker-compose
+sudo rm -rf /var/lib/docker
+sudo rm -rf /etc/docker
+sudo rm -rf ~/.docker
+sudo rm /etc/systemd/system/docker.service.d/*
+sudo rm /etc/systemd/system/docker.service
+sudo rmdir /etc/systemd/system/docker.service.d
+pacman -Qs docker
+pacman -Q docker
+docker -Qs docker
+pacman -Qs docker
+sudo pacman -R docker-desktop
+whick docker
+docker
+sudo pacman -R docker
+docker
+sudo rm -rf /var/lib/docker
+sudo rm -rf /etc/docker
+sudo rm -rf ~/.docker
+sudo pacman -Qs docker-compose
+sudo systemctl daemon-reload
+docker
+pacman -Qs docker
+which docker
+rm -rf /usr/local/bin/docker
+rm /usr/local/bin/docker
+sudo rm /usr/local/bin/docker
+docker
+sudo reboot
+ls
+cd .config
+ls
+rm -rf swayidle
+rm -rf swaylock
